@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/img/icon.png" />
+  </head>
+  <body>
+    <form class="container" onsubmit="return validate()" action="welcome.html">
+      <!-- Head Section -->
+
+      <div class="form-head">
+        <h2>REGISTER</h2>
+      </div>
+
+      <!-- Input Section -->
+
+      <div class="name-input">
+        <input id="text" type="text" placeholder="First Name" />
+        <input id="text" type="text" placeholder="Last Name" />
+      </div>
+      <div class="email">
+        <input id="email" type="email" placeholder="E-Mail" />
+      </div>
+      <div class="password">
+        <input id="pass" type="password" placeholder="Password" />
+        <input id="conpass" type="password" placeholder="Confirm Password" />
+      </div>
+      <div class="terms">
+        <input id="check" type="checkbox" /> I Accept <span>Terms Of Use</span>
+      </div>
+
+      <!-- Button Section -->
+
+      <div class="button">
+        <button type="submit">REGISTER NOW</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
